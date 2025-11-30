@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello, World from Flask!"
+    return "Hello, World from Flaskk!"
 
 @app.route('/process', methods=['POST'])
 def process():
